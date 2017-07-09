@@ -14,7 +14,7 @@ module.exports = {
 	blockRewards: [],
 	genesisPublicKey: {
 		mainnet: '',
-		testnet: '15fd288b8504a9309ced9f0efd27cec13f6415b8eb7e50cd98c1911e1b738e43'
+		testnet: '2950b4f53b55e902ac0ff91e3574e749613dcdbabefb1a3f9047840fdd745ca1'
 	},
 	rounds: { },
 	senderPublicKey: [],
