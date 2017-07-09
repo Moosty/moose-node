@@ -1,0 +1,11 @@
+node_modules
+songs
+logs/*.log
+nodejs
+npm-debug.log
+release
+ssl
+stacktrace*
+tmp
+helpers/bignum.js
+sql
