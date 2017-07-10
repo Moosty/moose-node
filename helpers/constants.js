@@ -72,7 +72,7 @@ module.exports = {
 		// Mainnet
 		'',
 		// Testnet
-		'71a8a7e52e902f366da687c6f17f5b9935dd12f425c53c764e25a3ba985836de'
+		'd383584d704ee09efbd2190e012a6127c55d1bcf4baadf5bec5549284140b0d6'
 	],
 	numberLength: 100000000,
 	requestLength: 104,
@@ -90,6 +90,6 @@ module.exports = {
 	},
 	signatureLength: 196,
 	// WARNING: When changing totalAmount you also need to change getBlockRewards(int) SQL function!
-	totalAmount: 20160000000000000,
+	totalAmount: 3600000000000000,
 	unconfirmedTransactionTimeOut: 10800 // 1080 blocks
 };

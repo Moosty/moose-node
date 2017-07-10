@@ -5,7 +5,7 @@
   "minVersion": ">=0.0.1",
   "fileLogLevel": "info",
   "logFileName": "logs/moose.log",
-  "consoleLogLevel": "trace",
+  "consoleLogLevel": "info",
   "trustProxy": false,
   "topAccounts": false,
   "cacheEnabled": false,
@@ -98,5 +98,5 @@
       "cert": "./ssl/moose.crt"
     }
   },
-  "nethash": "71a8a7e52e902f366da687c6f17f5b9935dd12f425c53c764e25a3ba985836de"
+  "nethash": "d383584d704ee09efbd2190e012a6127c55d1bcf4baadf5bec5549284140b0d6"
 }

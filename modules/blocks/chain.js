@@ -241,14 +241,7 @@ Chain.prototype.deleteAfterBlock = function (blockId, cb) {
  */
 Chain.prototype.applyGenesisBlock = function (block, cb) {
 	// Sort transactions included in block
-	block.transactions = block.transactions.sort(function (a, b) {
-		if (a.type === transactionTypes.VOTE) {
-			return 1;
-		} else {
-			return 0;
-		}
-	});
-	// Initialize block progress tracker
+  // Initialize block progress tracker
 	var tracker = modules.blocks.utils.getBlockProgressLogger(block.transactions.length, block.transactions.length / 100, 'Genesis block loading');
 	async.eachSeries(block.transactions, function (transaction, cb) {
 		// Apply transactions through setAccountAndGet, bypassing unconfirmed/confirmed states
