@@ -240,7 +240,6 @@ Chain.prototype.deleteAfterBlock = function (blockId, cb) {
  * @return {Object}   cb.err Error if occurred
  */
 Chain.prototype.applyGenesisBlock = function (block, cb) {
-	// Sort transactions included in block
   // Initialize block progress tracker
 	var tracker = modules.blocks.utils.getBlockProgressLogger(block.transactions.length, block.transactions.length / 100, 'Genesis block loading');
 	async.eachSeries(block.transactions, function (transaction, cb) {
