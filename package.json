@@ -70,7 +70,7 @@
     "istanbul-middleware": "=0.2.2",
     "jsdoc": "=3.4.3",
     "jsdox": "=0.4.10",
-    "moose-js": "Moosty/moose-js#f7726da",
+    "moose-js": "Moosty/moose-js#7c2b42e",
     "mocha": "=3.4.2",
     "moment": "=2.18.1",
     "sinon": "=2.3.4",
