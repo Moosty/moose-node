@@ -72,7 +72,7 @@
     "jsdox": "=0.4.10",
     "mocha": "=3.4.2",
     "moment": "=2.18.1",
-    "moose-js": "github:Moosty/moose-js#0e8247a",
+    "moose-js": "github:Moosty/moose-js#296aa6b",
     "sinon": "=2.3.4",
     "supertest": "=3.0.0"
   }
